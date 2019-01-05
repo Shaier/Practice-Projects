@@ -75,3 +75,13 @@ print(classification_report(y_test, y_predict))
 #F1:a function of Precision and Recall : --> 2* (precision*Recall)/(prec.+ rec)
 #Need when you need a balance between rec and prec.
 
+#Results
+[[148   1]
+ [  0 126]]
+              precision    recall  f1-score   support
+           0       1.00      0.99      1.00       149
+           1       0.99      1.00      1.00       126
+   micro avg       1.00      1.00      1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
