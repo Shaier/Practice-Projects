@@ -1,3 +1,4 @@
+```python
 import numpy as np
 from sklearn.cluster import MeanShift
 from sklearn.datasets.samples_generator import make_blobs
@@ -30,3 +31,4 @@ ax.scatter(cluster_centers[:,0],cluster_centers[:,1],cluster_centers[:,2],
             marker="x",color='k', s=150, linewidths = 5, zorder=10)
 
 plt.show()
+```
