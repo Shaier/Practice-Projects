@@ -1,7 +1,5 @@
-```python
-
 # K-Means Clustering with Scikit-Learn
-
+```python
 '''
 "In K means we forms clusters of data based on the similarity between data instances.
 For this particular algorithm to work, the number of clusters has to be defined beforehand.
