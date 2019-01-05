@@ -1,5 +1,5 @@
 #Kernel SVM
-#When we have a data that is non-linearly, a traight line cannot be used as a decision boundary (hence the kernel)
+#When we have a data that is non-linearly, a straight line cannot be used as a decision boundary (hence the kernel)
 
 #Implementing Kernel SVM
 
@@ -30,8 +30,8 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test= train_test_split(x, y, test_size=0.2)
 
 #Training the Algorithm
-''' In ordeer to train kernel SVM we use the same SVC class.
-The difference between this one and the simple SVM is in the value for the kernel parameter of the SVC class:
+''' In order to train a kernel SVM we use the same SVC class.
+The difference between a kernel SVM and the simple SVM is in the value for the kernel parameter of the SVC class:
 In simple SVM we used linear, but here we can use Gaussian, polynomial, sigmoid, or computable kernel'''
 
 #1. Polynomial Kernel
