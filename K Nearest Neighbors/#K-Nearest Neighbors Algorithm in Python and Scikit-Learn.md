@@ -1,4 +1,4 @@
-# K-Nearest Neighbors Algorithm in Python and Scikit-Learn
+# K-Nearest Neighbors with Scikit-Learn
 ```python 
 "The KNN doesn't have a specialized training phase. Rather, it uses all of the data for training while classifying a new data point or instance.
 KNN is a non-parametric learning algorithm, which means that it doesn't assume anything about the underlying data.
