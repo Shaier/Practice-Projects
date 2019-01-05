@@ -13,7 +13,7 @@ a way that the misclassification error can be minimized.
 Basically, SVM finds the most optimal decision boundary (the one which has maximum margin from the nearest points of all the classes).
 The nearest points from the decision boundary that maximize the distance between the decision boundary and the points are called support vectors
 '''
-
+#Import libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
