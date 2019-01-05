@@ -1,3 +1,4 @@
+# #Simple SVM
 ```python
 Wiki:
 Given a set of training examples, each marked as belonging to one or the other of two categories, an SVM training algorithm builds a model
@@ -83,7 +84,8 @@ print(classification_report(y_test, y_predict))
    macro avg       1.00      1.00      1.00       275
 weighted avg       1.00      1.00      1.00       275
 
+```
 # Resources
 https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
 https://en.wikipedia.org/wiki/Support-vector_machine
-```
+
