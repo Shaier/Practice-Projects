@@ -1,4 +1,5 @@
-#Kernel SVM
+```python
+# Kernel SVM
 #When we have a data that is non-linearly, a straight line cannot be used as a decision boundary (hence the kernel)
 
 #Implementing Kernel SVM
@@ -80,4 +81,5 @@ print(classification_report(y_test, y_pred))
 #Hence the bad score (we had 3 classes) in this example.
 
 Resources
-#https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
+https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
+```
