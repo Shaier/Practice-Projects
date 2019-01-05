@@ -1,3 +1,4 @@
+```python
 import numpy as np
 x = np.array([1,2,3,4,5])
 y = np.array([6,8,10,12,15])
@@ -25,3 +26,4 @@ def gradient_descent(x,y):
         print("m {}, b {}, cost {} iteration {}".format(m_curr, b_curr, cost, i))
 
 gradient_descent(x,y)
+```
