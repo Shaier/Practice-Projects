@@ -1,10 +1,10 @@
 # K-Nearest Neighbors Algorithm in Python and Scikit-Learn
 ```python 
-'''"it doesn't have a specialized training phase. Rather, it uses all of the data for training while classifying a new data point or instance.
+"The KNN doesn't have a specialized training phase. Rather, it uses all of the data for training while classifying a new data point or instance.
 KNN is a non-parametric learning algorithm, which means that it doesn't assume anything about the underlying data.
 most of the real world data doesn't really follow any theoretical assumption e.g. linear-separability, uniform distribution, etc."
 For pros and cons on using this visit the website in the resources
-'''
+
 #The general idea: KNN calculates the distance of a new data point to all other data points, and then
 #it chooses the K-nearest data points (K can be any integer) and assigns that data point to the class to which the majority of the K data points belong.
 
