@@ -1,3 +1,4 @@
+```python
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,3 +41,4 @@ example_measures=np.array([[4,2,1,1,1,2,3,2,1],[4,2,1,2,2,2,3,2,1]]) #its all mi
 example_measures=example_measures.reshape(len(example_measures),-1) #the first '2' is the number of samples.
 prediction=clf.predict(example_measures)
 print(prediction)
+```
