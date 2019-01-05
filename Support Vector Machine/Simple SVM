@@ -7,9 +7,9 @@ New examples are then mapped into that same space and predicted to belong to a c
 
 #Simple SVM
 '''
-In case of linearly separable data in two dimensions, as shown in Fig. 1, a typical machine learning algorithm tries to
-find a boundary that divides the data in such a way that the misclassification error can be minimized
-SVM finds the most optimal decision boundary (the one which has maximum margin from the nearest points of all the classes)
+If we have linearly separable data in two dimensions, a simple SVM will try to find a boundary that divides the data in 
+a way that the misclassification error can be minimized.
+Basically, SVM finds the most optimal decision boundary (the one which has maximum margin from the nearest points of all the classes).
 The nearest points from the decision boundary that maximize the distance between the decision boundary and the points are called support vectors
 '''
 
@@ -40,7 +40,7 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2)
 
 #Training the Algorithm
-'''the svm library contains built-in classes for different SVM algorithms.
+'''The svm library contains built-in classes for different SVM algorithms.
 Since we are going to perform a classification task, we will use the support vector classifier class, which is written as SVC.
 It takes one parameter, which is the kernel type. This is very important. In the case of a simple SVM we simply set this 
 parameter as "linear" since simple SVMs can ONLY classify linearly separable data.
