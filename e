@@ -1,3 +1,4 @@
+```python
 from	bs4	import	BeautifulSoup
 import	requests
 
@@ -56,3 +57,4 @@ def plot_bar_x():
     plt.xticks(index, x, fontsize=8, rotation=30)
     plt.title('Counts for each digit in e')
     plt.show()
+```
