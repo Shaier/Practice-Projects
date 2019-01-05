@@ -1,3 +1,4 @@
+```
 Wiki:
 Given a set of training examples, each marked as belonging to one or the other of two categories, an SVM training algorithm builds a model
 that assigns new examples to one category or the other.
@@ -72,7 +73,7 @@ print(classification_report(y_test, y_predict))
 #F1:a function of Precision and Recall : --> 2* (precision*Recall)/(prec.+ rec)
 #Need when you need a balance between rec and prec.
 
-#Results
+# Results
 [[148   1]
  [  0 126]]
               precision    recall  f1-score   support
@@ -82,6 +83,7 @@ print(classification_report(y_test, y_predict))
    macro avg       1.00      1.00      1.00       275
 weighted avg       1.00      1.00      1.00       275
 
-Resources
+# Resources
 #https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
 https://en.wikipedia.org/wiki/Support-vector_machine
+```
