@@ -1,4 +1,4 @@
-```
+```python
 Wiki:
 Given a set of training examples, each marked as belonging to one or the other of two categories, an SVM training algorithm builds a model
 that assigns new examples to one category or the other.
