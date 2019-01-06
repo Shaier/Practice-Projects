@@ -40,7 +40,6 @@ print(classification_report(y_test, y_pred))
 
 #Out of 275 test instances the algorithm misclassified only 4.
 ```
-##############################################################################################################################
 
 # Decision Tree for Regression
 ```python
