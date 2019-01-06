@@ -49,6 +49,6 @@ print(all_accuracies.mean()) #avg all accuracies
 print(all_accuracies.std())
 #Output:
 #0.027= 2.7% which is good. low variance means the model will perform more or less similar on all test sets.
-
+```
 # Resources
 https://stackabuse.com/cross-validation-and-grid-search-for-model-selection-in-python/
