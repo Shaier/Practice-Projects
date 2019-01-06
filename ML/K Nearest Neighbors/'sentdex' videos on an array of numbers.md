@@ -39,3 +39,4 @@ result = k_nearest_neighbors(dataset, new_features)
 plt.scatter(new_features[0], new_features[1], s=100, color = result)
 plt.show()
 ```
+# Resources
