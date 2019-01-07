@@ -99,4 +99,4 @@ print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_p
 #So the model is not very accurate, but it can still be useful to make predictions
 ```
 # Resources
-#https://stackabuse.com/linear-regression-in-python-with-scikit-learn/
+https://stackabuse.com/linear-regression-in-python-with-scikit-learn/
