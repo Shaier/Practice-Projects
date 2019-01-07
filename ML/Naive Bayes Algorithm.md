@@ -4,7 +4,7 @@
 #The data has a form: [label] [tab] [message]
 
 import pandas as pd
-path='C:\\Users\\sagi\\Desktop\\Learning\\ML\\Datasets\\SMSSpamCollection'
+path='C:\\Users\\sagi\\Desktop\\SMSSpamCollection'
 df = pd.read_table(path,
                    sep='\t',
                    header=None,
