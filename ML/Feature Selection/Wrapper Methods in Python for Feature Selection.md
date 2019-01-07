@@ -1,6 +1,7 @@
 # Applying Wrapper Methods in Python for Feature Selection
 When you want to choose a specific ML algorithm to train your model features selection with filter may not be the best.
-Wrapper methods select the most optimal features for the specified algorithm
+Wrapper methods select the most optimal features for the specified algorithm.
+
 "Wrapper methods are based on greedy search algorithms as they evaluate all possible combinations of the features and 
 select the combination that produces the best result for a specific machine learning algorithm."
 There are 3 categories of these methods:
