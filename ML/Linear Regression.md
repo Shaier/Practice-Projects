@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-path='C:\\Users\\sagi\\Desktop\\Learning\\ML\\Datasets\\student_scores.csv'
+path='C:\\Users\\sagi\\Desktop\\student_scores.csv'
 dataset = pd.read_csv(path)
 
 #Explore the data
