@@ -63,5 +63,3 @@ print(np.mean(predicted == y_test))
 from sklearn.metrics import confusion_matrix
 print(confusion_matrix(y_test, predicted))
 ```
-# Resources
-https://stackabuse.com/the-naive-bayes-algorithm-in-python-with-scikit-learn/
