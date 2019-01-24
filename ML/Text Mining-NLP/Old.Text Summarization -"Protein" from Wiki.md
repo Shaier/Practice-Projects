@@ -63,10 +63,5 @@ summary_sentences = heapq.nlargest(10, sentence_scores, key=sentence_scores.get)
 summary = ' '.join(summary_sentences)
 print(summary)
 ```
-# Resources 
-https://stackabuse.com/text-summarization-with-nltk-in-python/
-
-
-
 
 
