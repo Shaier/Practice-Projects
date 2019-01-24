@@ -50,8 +50,6 @@ plt.scatter(x[:,0],x[:,1], c=kmeans.labels_, cmap='rainbow') #plotting the new s
 
 plt.scatter(kmeans.cluster_centers_[:,0] ,kmeans.cluster_centers_[:,1], color='black') #plotting the centroid for each cluster
 ```
-# Resources
-https://stackabuse.com/k-means-clustering-with-scikit-learn/
 
 
 
