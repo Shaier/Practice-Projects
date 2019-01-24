@@ -1,3 +1,3 @@
 # Practice-Projects
 
-Some code for several projects/practice problems while learning Python.
+Code for several projects, algorithms, and practice problems
