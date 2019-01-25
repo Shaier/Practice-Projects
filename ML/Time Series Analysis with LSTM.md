@@ -119,12 +119,3 @@ plt.ylabel('Apple Stock Price')
 plt.legend()
 plt.show()
 ```
-# Resources
-https://stackabuse.com/time-series-analysis-with-lstm-using-pythons-keras-library/
-
-
-
-
-
-
-
